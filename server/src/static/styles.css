@@ -1,0 +1,98 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Inter, sans-serif;
+    background-color: #fff;
+}
+/* Header styles */
+.header {
+    background-color: #fff;
+    color: #333;
+    padding: 80px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+    background: -webkit-linear-gradient(#ff662e, #ff2e66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.main-section {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+code {
+    color: #d9073f;
+    background-color: #f0f0f0;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
